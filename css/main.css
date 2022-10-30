@@ -1,0 +1,19 @@
+/* Scrollbar setting */
+/* Width and height */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  border-radius: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #232931; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #757f8d; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #656e7a; 
+}
